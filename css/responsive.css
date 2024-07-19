@@ -1,0 +1,149 @@
+@media only screen and (max-width: 1440px) {
+  .meal-box{
+    width: 45%;
+  }
+
+  .text-judul{
+    font-size: 2.8rem;
+  }
+  .people-profile{
+    width: 35px;
+    height: 35px;
+  }
+  .people-information-join{
+    font-size: 1rem;
+  }
+  .text-section{
+    width: 40%;
+  }
+
+  .img-section, .img-section2,.img-section3{
+    width: 330px;
+  }
+}
+
+
+@media only screen and (max-width: 1280px) {
+  .place-section-1{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    
+    align-items: center;
+    justify-content:center;
+  }
+  
+  .section-1{
+  }
+  .text-section{
+    width: 80%;
+  }
+  
+  .img-section2,.img-section3{
+    display: none;
+  }
+  
+  .img-section{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .img-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+
+
+@media only screen and (max-width: 815px) {
+  .navigation-list{
+    display: none;
+  }
+
+  .person-testimonial{
+    grid-template-columns: 1fr;
+  }
+
+  .text-section{
+    width: 70%;
+  }
+
+  .img-section{
+    width: 300px;
+  }
+  .section-2-img{
+    display: none;
+  }
+
+  .section-2{
+    
+    align-items: center;
+    justify-content: center;
+  }
+
+  .price-meal-section{
+    gap: 0.8rem;
+  }
+  .button-startmeal button{
+    font-size: 0.75rem;
+    padding: 11px;
+  }
+
+}
+
+@media only screen and (max-width: 888px  ) {
+  .img-testi{
+    height: 100%;
+  }
+
+  .info-action p ,.info-action button {
+    font-size:1rem;
+    margin-top: 1.45rem;
+  }
+
+  .info-action h1 {
+    font-size: 2rem;
+  }
+
+  label{
+    font-size: 0.9rem;
+  }
+
+}
+
+@media only screen and (max-width: 740px) {
+  .meal-box{
+    width: 90%;
+  }
+
+  .call-action-section p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  /* call action section responsive*/
+  .info-action{
+    width: 50%;
+  }
+  
+  .call-action-image{
+    width: 45%;
+  }
+
+  .info-action p ,.info-action button {
+    font-size: 0.66rem;
+    margin-top: 1.45rem;
+  }
+
+  .info-action h1 {
+    font-size: 1.35rem;
+  }
+
+  label{
+    font-size: 0.55rem;
+  }
+
+  
+}
