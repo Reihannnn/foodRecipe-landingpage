@@ -140,10 +140,59 @@
   .info-action h1 {
     font-size: 1.35rem;
   }
-
+  
   label{
     font-size: 0.55rem;
+  } 
+}
+
+@media only screen and (max-width: 600px  ) {
+  .image-section{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* bagian atas website*/
+  .img-section{
+    display: none;
   }
 
-  
+  .text-judul{
+    font-size: 2rem;
+  }
+  .text-information{
+    font-size: 1.2rem;
+  }
+  .testimonial-album{
+    display: none;
+  }
+  .testimonials-section{
+    grid-template-columns: 1fr;
+  }
+
+  .info-action{
+    width: 100%;
+  }
+
+  .call-action-section{
+    border-radius: 0.7rem;
+  }
+
+  .call-action-image{
+    display: none;
+  }
+
+  .image-section{
+    width: 0px;
+  }
+
+  .text-button button{
+    width: 45%;
+    font-size: 0.8rem;
+  }
+
+  .people-information-join{
+    font-size: 0.75rem;
+  }
 }
